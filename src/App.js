@@ -18,6 +18,10 @@ const headerLinks = [
     title: "login",
     path: "login"
   },
+  {
+    title: "John",
+    path: "profile/John"
+  }
 ]
 
 function App() {
