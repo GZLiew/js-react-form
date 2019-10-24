@@ -15,10 +15,6 @@ const headerLinks = [
     path: "contact"
   },
   {
-    title: "login",
-    path: "login"
-  },
-  {
     title: "John",
     path: "profile/John"
   }
@@ -28,7 +24,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header title="My Title" links={headerLinks} />
+        <Header title="JS React" links={headerLinks} />
         <Routes />
       </div>  
     </BrowserRouter>
